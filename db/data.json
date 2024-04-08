@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "john.doe@example.com",
+      "password": "hqcgul",
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": "2",
+      "email": "jane.doe@example.com",
+      "password": "blceov",
+      "firstName": "Jane",
+      "lastName": "Doe"
+    },
+    {
+      "id": "3",
+      "email": "sam.smith@example.com",
+      "password": "aecpsa",
+      "firstName": "Sam",
+      "lastName": "Smith"
+    }
+  ],
+  "posts": [
+    {
+      "userId": "1",
+      "postedAt": "2024-03-21T12:00:00",
+      "title": "Tech Trends",
+      "text": "Here's my take on the latest in technology.",
+      "id": "1e30"
+    },
+    {
+      "id": "d544",
+      "userId": "1",
+      "title": "Health and Wellness",
+      "text": "Sharing some personal tips for staying healthy.",
+      "postedAt": "2024-3-1T4:00:00"
+    },
+    {
+      "userId": "2",
+      "postedAt": "2024-03-23T16:00:00",
+      "title": "Travel Diaries",
+      "text": "Join me as I explore new places and cultures.",
+      "id": "6f39"
+    },
+    {
+      "userId": "2",
+      "postedAt": "2024-03-24T18:00:00",
+      "title": "Art & Inspiration",
+      "text": "Exploring the intersection of art and inspiration.",
+      "id": "4db6"
+    },
+    {
+      "userId": "2",
+      "postedAt": "2024-03-25T20:00:00",
+      "title": "Coding Challenges",
+      "text": "I'm tackling new coding challenges. Here's what I've learned.",
+      "id": "c0b0"
+    },
+    {
+      "id": "e0c2",
+      "userId": "3",
+      "title": "Macaco velho vei",
+      "text": "How starting my day right makes all the difference.",
+      "postedAt": "2024-3-1T3:00:00"
+    },
+    {
+      "userId": "3",
+      "postedAt": "2024-03-27T12:00:00",
+      "title": "Favorite Books",
+      "text": "Sharing a list of books that have impacted my life.",
+      "id": "0417"
+    },
+    {
+      "userId": "3",
+      "postedAt": "2024-03-28T14:00:00",
+      "title": "Photography Tips",
+      "text": "Some simple tips to up your photography game.",
+      "id": "df7d"
+    },
+    {
+      "userId": "3",
+      "postedAt": "2024-03-29T16:00:00",
+      "title": "Productivity Hacks",
+      "text": "Discover the habits that boost my productivity.",
+      "id": "6f4c"
+    },
+    {
+      "id": "1ef1",
+      "data": {
+        "userId": "3",
+        "title": "Olá",
+        "text": "Tudo bem?",
+        "postedAt": "2024-3-1T2:00:00"
+      }
+    },
+    {
+      "id": "9aa5",
+      "userId": "3",
+      "title": "Seu cú",
+      "text": "How starting my day right makes all the difference.",
+      "postedAt": "2024-3-1T3:00:00"
+    }
+  ]
+}
