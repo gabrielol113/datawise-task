@@ -1,0 +1,91 @@
+.Postscontainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;    
+    background-color: #f4f4f4;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+.post-head{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.post-head button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.5);
+    margin-top: 15px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.post-head button:hover{
+    background-color: #414141;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.ListContainer{
+    display: flex;
+    justify-content: center;
+}
+.post-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.post-body{
+    font-size: 16px;
+    color: #666;
+}
+.ListContainer li{
+    width: 100%;
+    border: 1px solid grey;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ListContainer ul{
+    width: 50%;
+    list-style: none;
+    padding: 0;
+}
+
+.editButton{
+    margin-right: 10px;
+    background-color: #51365c;
+    color: white;
+    border-radius: 6px;
+    width: 60px;
+    height: 30px;
+}
+
+.editButton:hover{
+    background-color: #36243d;
+    cursor: pointer;
+}
+
+.deleteButton{    
+    margin-right: 10px;
+    background-color: #691818;
+    color: white;
+    border-radius: 6px;
+    width: 60px;
+    height: 30px;
+}
+
+.deleteButton:hover{
+    background-color: #3f0f0f;
+    color: white;
+    cursor: pointer;
+}
